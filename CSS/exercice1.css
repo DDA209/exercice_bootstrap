@@ -9,51 +9,41 @@ body{
 /**********************
 COLUMNS
 **********************/
-
-.line1{
-    background-color: yellow;
+/* structure */
+.row div div{
     height: 40px;
     margin-bottom: 1rem;
+}
+
+/* colors */
+.line1{
+    background-color: yellow;
 }
 
 .line2{
     background-color: blue;
-    height: 40px;
-    margin-bottom: 1rem;
 }
 
 .line3{
     background-color: red;
-    height: 40px;
-    margin-bottom: 1rem;
 }
 
 .line4{
     background-color: green;
-    height: 40px;
-    margin-bottom: 1rem;
 }
 
 .line5{
     background-color: grey;
-    height: 40px;
-    margin-bottom: 1rem;
 }
 
 .line6{
     background-color: purple;
-    height: 40px;
-    margin-bottom: 1rem;
 }
 
 .line7{
     background-color: orange;
-    height: 40px;
-    margin-bottom: 1rem;
 }
 
 .line8{
     background-color: turquoise;
-    height: 40px;
-    margin-bottom: 1rem;
 }
