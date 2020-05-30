@@ -10,7 +10,7 @@ body{
 PRINCIPAL
 **********************/
 h1, h2, h3, h4, h5, h6{
-    font-display: ;
+    font-style: normal ;
 }
 
 /**********************
@@ -26,7 +26,19 @@ header div{
     height: 250px;
 }
 
-/**********************
-**********************/
+figure{
+    text-align: center;
+    margin: 15px;
+}
 
+
+/**********************
+PARAGRAFS
+**********************/
+h3{
+    margin-top: 2rem
+}
+p{
+    margin-top: 1rem;
+}
 
