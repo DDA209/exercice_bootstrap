@@ -10,7 +10,8 @@ body{
 PRINCIPAL
 **********************/
 h1, h2, h3, h4, h5, h6{
-    font-style: normal ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
 }
 
 /**********************
@@ -23,22 +24,47 @@ HEADER
 **********************/
 header div{
     background-color: #e6e9ed;
-    height: 250px;
+    height: 370px;
+    padding: 0px;
+}
+
+header div div{
+    background-color: #00000000;
 }
 
 figure{
     text-align: center;
-    margin: 15px;
+    margin: 65px 75px 65px 75px;
 }
 
+figcaption{
+    text-align: center;
+}
+
+h1{
+    margin-top: 60px;
+    font-size: 3.5rem;
+    font-weight: 100;
+}
 
 /**********************
 PARAGRAFS
 **********************/
 h3{
-    margin-top: 2rem
-}
-p{
-    margin-top: 1rem;
+    margin-top: 2.5rem
 }
 
+p{
+    margin-top: 0.5rem;
+    font-weight: 500;
+}
+
+#planification{
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+#Analysis{
+    margin-right: 0px;
+    padding-right: 0px;
+}
