@@ -22,19 +22,23 @@ NAV
 /**********************
 HEADER
 **********************/
-header div{
-    background-color: #e6e9ed;
-    height: 370px;
+.nomargin.nopadding{
     padding: 0px;
+    margin: 0px;
 }
 
-header div div{
-    background-color: #00000000;
+header{
+    height: 370px;
+}
+
+header div{
+    /* background-color: #00000000; */
+    background-color: #e6e9ed;
 }
 
 figure{
     text-align: center;
-    margin: 65px 75px 65px 75px;
+    margin: 65px 90px 65px 90px;
 }
 
 figcaption{
